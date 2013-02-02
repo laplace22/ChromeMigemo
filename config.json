@@ -1,8 +1,7 @@
 {
-  "name": "ChromeMigemo 2",
-  "appid": "cpafmlkmakloihfnemkifakaficmdhhf",
+  "name": "Migemo Server for Google Chrome™",
   "source_dir": "src",
-  "pem_file": "ChromeMigemo2.pem",
-  "crx_file": "output/ChromeMigemo2.crx",
-  "zip_file": "output/ChromeMigemo2.zip"
+  "pem_file": "MigemoServer.pem",
+  "crx_file": "output/MigemoServer.crx",
+  "zip_file": "output/MigemoServer.zip"
 }

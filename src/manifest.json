@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "ChromeMigemo 2",
+  "name": "Migemo Server for Google Chrome™",
   "icons": { 
     "24": "icons/icon24.png",
     "32": "icons/icon32.png",

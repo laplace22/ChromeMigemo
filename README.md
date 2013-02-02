@@ -1,4 +1,4 @@
-# ChromeMigemo 2 Extension
+# Migemo Server for Google Chrome™ Extension
 
 This is a forked version of [edvakf/ChromeMigemo](https://github.com/edvakf/ChromeMigemo) which support `chrome.extension.sendMessage`.
 
