@@ -7,7 +7,7 @@
     "48": "icons/icon48.png"
   },
   "description": "A Migemo server. It does not provide any end-user interface. It provides APIs to be used by other extensions.",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "background": {
     "scripts": [
       "background/lib/jsdeferred.js",
