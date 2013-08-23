@@ -101,7 +101,7 @@
   // called when there is a connection
   chrome.extension.onMessageExternal.addListener(
     function(request, sender, sendResponse) {
-      var domain = sender.tab.url.match(/^.*?:\/\/(.*)\//)[1] || 'localhost';
+      var domain = (sender.tab && sender.tab.url.match(/^.*?:\/\/(.*)\//)[1]) || 'localhost';
       console.log("Request : " + request + 
                   sender.tab ? "from a content script: " + domain :
                   "from extension: " + sender.id);
