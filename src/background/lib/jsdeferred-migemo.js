@@ -214,11 +214,11 @@
         var lookup = (group !== last) ? lookupExact(group) : lookupAmbiguous(group);
         return lookup.next(function(results) {
           // group : ["atta","あった"] => results : [ ['attack', 'attach'], ['あった'] ]
-          results = extractPrefix(results).concat(group);
+          results = results.concat(group);
           // what expandResult does is: 'attack' => ['attack', 'attacked', 'attacking', 'attacker']
           // or 'あった' => ['あった', 'アッタ']
           results = concat(results.map(expandResult));
-          return extractPrefix(results);
+          return results;
         });
       })
     );
